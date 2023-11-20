@@ -556,7 +556,7 @@ end
 we test for different values of M
 
 ```julia
-sqrtMs = [10, 50, 100, 200, 256]
+sqrtMs = [10, 50, 100, 150, 200, 256]
 Ms = [i^2 for i in sqrtMs]
 plots = []
 for (M, sqrtM) in zip(Ms, sqrtMs)
