@@ -16,7 +16,7 @@ end
 
 cd("tutorials")
 
-files = ["burgers", "navier_stokes_spectral"]
+files = ["burgers", "navier_stokes_spectral", "navier_stokes_wavelets"]
 
 for f in files
     # Literate.notebook(f * ".jl"; execute = false)

@@ -5,3 +5,9 @@
 
 # Mac OS
 *.DS_Store
+
+# Tutorial makefile
+tutorials/make.jl
+
+# vscode
+.vscode
